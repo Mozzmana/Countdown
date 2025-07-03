@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <textarea placeholder="Enter Text" class="h1"></textarea>
+      <div class="container">
+        <div class="main-card">
+          <div class="card">
+            <input type="number" class="days" value="10" min="0" max="99" />
+            <hr />
+          </div>
+          <div class="p">
+            <p>DAYS</p>
+          </div>
+        </div>
+        <div class="main-card">
+          <div class="card">
+            <input type="number" class="hours" min="0" max="23" value="23" />
+            <hr />
+          </div>
+          <div class="p">
+            <p>HOURS</p>
+          </div>
+        </div>
+        <div class="main-card">
+          <div class="card">
+            <input type="number" class="minutes" min="0" max="59" value="25" />
+            <hr />
+          </div>
+          <div>
+            <div class="p">
+              <p>MINUTES</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-card">
+          <div class="card">
+            <input type="number" class="seconds" min="0" max="59" value="59" />
+            <hr />
+          </div>
+          <div>
+            <div class="p">
+              <p>SECONDS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <button class="button">Start</button>
+    <button class="stop-button">Stop Countdown</button>
+
+    <footer>
+      <div class="icons">
+        <img src="images/icon-facebook.svg" alt="" />
+        <img src="images/icon-pinterest.svg" alt="" />
+        <img src="images/icon-instagram.svg" alt="" />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
